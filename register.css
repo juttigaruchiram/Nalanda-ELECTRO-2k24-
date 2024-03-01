@@ -139,5 +139,7 @@ body{
     font-size: 18px;
     columns: #333;
     font-weight: 600;
-    
+}
+select option {
+    color:black !important
 }
