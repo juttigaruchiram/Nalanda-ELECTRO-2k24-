@@ -5,7 +5,7 @@
               body {
                   margin: 0;
                   padding: 0;
-                  background-image:url("https://img.freepik.com/premium-photo/vertical-image-technology-modern-future-background-illustration-dark-blue-background_545033-1168.jpg?w=360");
+                  background-image:url("image.png");
                   background-repeat: no-repeat;
                   background-size: 100%;
               }
@@ -152,7 +152,7 @@
                 font-family: "Protest Revolution", sans-serif;;
               }
 .reg{
-    margin-top:20px ;
+    margin-top:50px ;
     text-decoration: none;
     text-align: center;
     font-size: 30px;
