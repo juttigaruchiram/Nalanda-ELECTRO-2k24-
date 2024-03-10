@@ -18,9 +18,67 @@
                                     color: white;
                                     font-size: 25px;
                   }
+        .navbar {
+                  display: flex;
+                  position: relative;
+                  justify-content: space-between;
+                  align-items: center;
+                  background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+                  color: white;
+                  margin:-10px;
+              }
+              
+              .brand-title {
+                  font-size: 1.5rem;
+                  margin: .5rem;
+              }
+              
+              .navbar-links {
+                  height: 100%;
+              }
+              
+              .navbar-links ul {
+                  display: flex;
+                  margin: 0;
+                  padding: 0;
+              }
+              
+              .navbar-links li {
+                  list-style: none;
+              }
+              
+              .navbar-links li a {
+                  display: block;
+                  text-decoration: none;
+                  color: white;
+                  padding: 1rem;
+              }
+              
+              .navbar-links li:hover {
+                  background-color: #555;
+              }
     </style>
 </head>
 <body>
+    <nav class="navbar">
+    <div class="brand-title"></div>
+    <a href="index.html" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="Register.html">Register</a></li>
+      </ul>
+    </div>
+  </nav>
 <div class="one">
                   <h3>STAFF CO-ORDINATORS</h3>
                   <h5>Ms.M.ANUSHA <br>PH:9248409992</h5>
